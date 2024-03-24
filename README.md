@@ -7,7 +7,7 @@ It's distinct from a list in that the value of `a: list<int>` is not the integer
 the list holding the integers. On the other hand, `a: value union<int>` does hold the integer values
 directly and acts as if it were an integer, not a list.
 
-See [](./value_union.md) for a more professional explanation.
+See [value_union.md](./value_union.md) for a more professional explanation.
 
 ## Proof-of-concept
 
