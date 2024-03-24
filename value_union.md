@@ -1,0 +1,5 @@
+# Value Union
+
+A "value union" is a programming construct designed to enable the storage of multiple values within a single variable while maintaining a consistent type. Unlike traditional variables, which typically hold a single value of a specific type, a value union allows for the simultaneous representation of multiple values within the same memory space.
+The primary purpose of a value union is to provide flexibility in handling homogeneous data without resorting to the use of separate variables or complex data structures. By encapsulating multiple values within a single variable, developers can streamline code organization and improve efficiency in scenarios where disparate values need to be managed collectively.
+The need to compare a variable against multiple values simultaneously, such as `a == 2 or 3`, is a requirement encountered in various programming tasks, yet many languages lack native support for this syntax. By leveraging value unions, developers can overcome this limitation and express such comparisons in a straightforward and readable manner.
